@@ -1,0 +1,78 @@
+Rule,Support,Confidence,Lift
+"{'Age_Middle_30-50', 'BP_Normal'} → {'Insulin_Not_Measured'}",0.5,1.0,1.6
+"{'Age_Middle_30-50', 'Insulin_Not_Measured'} → {'BP_Normal'}",0.5,1.0,1.6
+"{'BP_Normal', 'Insulin_Not_Measured'} → {'Age_Middle_30-50'}",0.5,1.0,1.6
+{'Genetic_Risk_Medium'} → {'Age_Middle_30-50'},0.375,1.0,1.6
+{'Glucose_Diabetic'} → {'Age_Middle_30-50'},0.375,1.0,1.6
+{'Age_Young_<30'} → {'Genetic_Risk_Low'},0.375,1.0,2.0
+{'BP_Hypotension'} → {'BMI_Obese'},0.375,1.0,2.0
+{'Skin_Thick'} → {'BMI_Obese'},0.375,1.0,2.0
+{'BMI_Overweight'} → {'BP_Normal'},0.375,1.0,1.6
+{'BMI_Overweight'} → {'Diagnosis_Negative'},0.375,1.0,2.0
+{'Genetic_Risk_Medium'} → {'BP_Normal'},0.375,1.0,1.6
+{'Glucose_Diabetic'} → {'Diagnosis_Positive'},0.375,1.0,2.0
+{'Skin_Thick'} → {'Diagnosis_Positive'},0.375,1.0,2.0
+{'Genetic_Risk_Medium'} → {'Insulin_Not_Measured'},0.375,1.0,1.6
+{'Preg_Many_6+'} → {'Insulin_Not_Measured'},0.375,1.0,1.6
+{'Skin_Very_Thin'} → {'Insulin_Not_Measured'},0.375,1.0,1.6
+"{'Genetic_Risk_Medium'} → {'Age_Middle_30-50', 'BP_Normal'}",0.375,1.0,2.0
+"{'Age_Middle_30-50', 'Genetic_Risk_Medium'} → {'BP_Normal'}",0.375,1.0,1.6
+"{'BP_Normal', 'Genetic_Risk_Medium'} → {'Age_Middle_30-50'}",0.375,1.0,1.6
+"{'Glucose_Diabetic'} → {'Age_Middle_30-50', 'Diagnosis_Positive'}",0.375,1.0,2.6666666666666665
+"{'Age_Middle_30-50', 'Diagnosis_Positive'} → {'Glucose_Diabetic'}",0.375,1.0,2.6666666666666665
+"{'Age_Middle_30-50', 'Glucose_Diabetic'} → {'Diagnosis_Positive'}",0.375,1.0,2.0
+"{'Glucose_Diabetic', 'Diagnosis_Positive'} → {'Age_Middle_30-50'}",0.375,1.0,1.6
+"{'Genetic_Risk_Medium'} → {'Age_Middle_30-50', 'Insulin_Not_Measured'}",0.375,1.0,2.0
+"{'Age_Middle_30-50', 'Genetic_Risk_Medium'} → {'Insulin_Not_Measured'}",0.375,1.0,1.6
+"{'Genetic_Risk_Medium', 'Insulin_Not_Measured'} → {'Age_Middle_30-50'}",0.375,1.0,1.6
+"{'Skin_Thick'} → {'Diagnosis_Positive', 'BMI_Obese'}",0.375,1.0,2.6666666666666665
+"{'Diagnosis_Positive', 'BMI_Obese'} → {'Skin_Thick'}",0.375,1.0,2.6666666666666665
+"{'Skin_Thick', 'BMI_Obese'} → {'Diagnosis_Positive'}",0.375,1.0,2.0
+"{'Skin_Thick', 'Diagnosis_Positive'} → {'BMI_Obese'}",0.375,1.0,2.0
+"{'BMI_Overweight'} → {'Diagnosis_Negative', 'BP_Normal'}",0.375,1.0,2.6666666666666665
+"{'BMI_Overweight', 'BP_Normal'} → {'Diagnosis_Negative'}",0.375,1.0,2.0
+"{'BMI_Overweight', 'Diagnosis_Negative'} → {'BP_Normal'}",0.375,1.0,1.6
+"{'Diagnosis_Negative', 'BP_Normal'} → {'BMI_Overweight'}",0.375,1.0,2.6666666666666665
+"{'Genetic_Risk_Medium'} → {'BP_Normal', 'Insulin_Not_Measured'}",0.375,1.0,2.0
+"{'BP_Normal', 'Genetic_Risk_Medium'} → {'Insulin_Not_Measured'}",0.375,1.0,1.6
+"{'Genetic_Risk_Medium', 'Insulin_Not_Measured'} → {'BP_Normal'}",0.375,1.0,1.6
+"{'Genetic_Risk_Medium'} → {'Age_Middle_30-50', 'BP_Normal', 'Insulin_Not_Measured'}",0.375,1.0,2.0
+"{'Age_Middle_30-50', 'Genetic_Risk_Medium'} → {'BP_Normal', 'Insulin_Not_Measured'}",0.375,1.0,2.0
+"{'BP_Normal', 'Genetic_Risk_Medium'} → {'Age_Middle_30-50', 'Insulin_Not_Measured'}",0.375,1.0,2.0
+"{'Genetic_Risk_Medium', 'Insulin_Not_Measured'} → {'Age_Middle_30-50', 'BP_Normal'}",0.375,1.0,2.0
+"{'Age_Middle_30-50', 'BP_Normal', 'Genetic_Risk_Medium'} → {'Insulin_Not_Measured'}",0.375,1.0,1.6
+"{'Age_Middle_30-50', 'Genetic_Risk_Medium', 'Insulin_Not_Measured'} → {'BP_Normal'}",0.375,1.0,1.6
+"{'BP_Normal', 'Genetic_Risk_Medium', 'Insulin_Not_Measured'} → {'Age_Middle_30-50'}",0.375,1.0,1.6
+{'Age_Middle_30-50'} → {'BP_Normal'},0.5,0.8,1.28
+{'BP_Normal'} → {'Age_Middle_30-50'},0.5,0.8,1.28
+{'Age_Middle_30-50'} → {'Insulin_Not_Measured'},0.5,0.8,1.28
+{'Insulin_Not_Measured'} → {'Age_Middle_30-50'},0.5,0.8,1.28
+{'BP_Normal'} → {'Insulin_Not_Measured'},0.5,0.8,1.28
+{'Insulin_Not_Measured'} → {'BP_Normal'},0.5,0.8,1.28
+"{'Age_Middle_30-50'} → {'BP_Normal', 'Insulin_Not_Measured'}",0.5,0.8,1.6
+"{'BP_Normal'} → {'Age_Middle_30-50', 'Insulin_Not_Measured'}",0.5,0.8,1.6
+"{'Insulin_Not_Measured'} → {'Age_Middle_30-50', 'BP_Normal'}",0.5,0.8,1.6
+{'Diagnosis_Positive'} → {'Age_Middle_30-50'},0.375,0.75,1.2
+{'Genetic_Risk_Low'} → {'Age_Young_<30'},0.375,0.75,2.0
+{'BMI_Obese'} → {'BP_Hypotension'},0.375,0.75,2.0
+{'BMI_Obese'} → {'Diagnosis_Positive'},0.375,0.75,1.5
+{'Diagnosis_Positive'} → {'BMI_Obese'},0.375,0.75,1.5
+{'BMI_Obese'} → {'Skin_Thick'},0.375,0.75,2.0
+{'Diagnosis_Negative'} → {'BMI_Overweight'},0.375,0.75,2.0
+{'Diagnosis_Negative'} → {'BP_Normal'},0.375,0.75,1.2
+{'Diagnosis_Negative'} → {'Genetic_Risk_Low'},0.375,0.75,1.5
+{'Genetic_Risk_Low'} → {'Diagnosis_Negative'},0.375,0.75,1.5
+{'Diagnosis_Negative'} → {'Insulin_Not_Measured'},0.375,0.75,1.2
+{'Diagnosis_Positive'} → {'Glucose_Diabetic'},0.375,0.75,2.0
+{'Diagnosis_Positive'} → {'Skin_Thick'},0.375,0.75,2.0
+"{'Age_Middle_30-50', 'BP_Normal'} → {'Genetic_Risk_Medium'}",0.375,0.75,2.0
+"{'Diagnosis_Positive'} → {'Age_Middle_30-50', 'Glucose_Diabetic'}",0.375,0.75,2.0
+"{'Age_Middle_30-50', 'Insulin_Not_Measured'} → {'Genetic_Risk_Medium'}",0.375,0.75,2.0
+"{'BMI_Obese'} → {'Skin_Thick', 'Diagnosis_Positive'}",0.375,0.75,2.0
+"{'Diagnosis_Positive'} → {'Skin_Thick', 'BMI_Obese'}",0.375,0.75,2.0
+"{'Diagnosis_Negative'} → {'BMI_Overweight', 'BP_Normal'}",0.375,0.75,2.0
+"{'BP_Normal', 'Insulin_Not_Measured'} → {'Genetic_Risk_Medium'}",0.375,0.75,2.0
+"{'Age_Middle_30-50', 'BP_Normal'} → {'Genetic_Risk_Medium', 'Insulin_Not_Measured'}",0.375,0.75,2.0
+"{'Age_Middle_30-50', 'Insulin_Not_Measured'} → {'BP_Normal', 'Genetic_Risk_Medium'}",0.375,0.75,2.0
+"{'BP_Normal', 'Insulin_Not_Measured'} → {'Age_Middle_30-50', 'Genetic_Risk_Medium'}",0.375,0.75,2.0
+"{'Age_Middle_30-50', 'BP_Normal', 'Insulin_Not_Measured'} → {'Genetic_Risk_Medium'}",0.375,0.75,2.0

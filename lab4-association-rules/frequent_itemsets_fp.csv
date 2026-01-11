@@ -1,0 +1,113 @@
+Размер,Набор товаров,Поддержка
+1,mineral water,0.320
+1,spaghetti,0.220
+1,eggs,0.180
+1,avocado,0.140
+1,french fries,0.140
+1,green tea,0.140
+1,chocolate,0.100
+1,honey,0.100
+1,salmon,0.100
+1,turkey,0.100
+1,burgers,0.080
+1,chicken,0.080
+1,escalope,0.080
+1,frozen vegetables,0.080
+1,milk,0.080
+1,shrimp,0.080
+1,soup,0.080
+1,black tea,0.060
+1,cookies,0.060
+1,energy bar,0.060
+1,frozen smoothie,0.060
+1,low fat yogurt,0.060
+1,meatballs,0.060
+1,sparkling water,0.060
+1,body spray,0.040
+1,champagne,0.040
+1,cooking oil,0.040
+1,cottage cheese,0.040
+1,fresh tuna,0.040
+1,ground beef,0.040
+1,hot dogs,0.040
+1,light cream,0.040
+1,pancakes,0.040
+1,pasta,0.040
+1,pickles,0.040
+1,red wine,0.040
+1,whole wheat rice,0.040
+1,yams,0.040
+2,"mineral water, spaghetti",0.100
+2,"eggs, mineral water",0.080
+2,"mineral water, salmon",0.080
+2,"chicken, mineral water",0.060
+2,"chocolate, eggs",0.060
+2,"eggs, turkey",0.060
+2,"escalope, spaghetti",0.060
+2,"frozen smoothie, mineral water",0.060
+2,"frozen vegetables, spaghetti",0.060
+2,"green tea, mineral water",0.060
+2,"honey, shrimp",0.060
+2,"salmon, spaghetti",0.060
+2,"avocado, green tea",0.040
+2,"avocado, honey",0.040
+2,"avocado, mineral water",0.040
+2,"avocado, shrimp",0.040
+2,"avocado, soup",0.040
+2,"black tea, mineral water",0.040
+2,"black tea, salmon",0.040
+2,"black tea, spaghetti",0.040
+2,"body spray, green tea",0.040
+2,"body spray, pancakes",0.040
+2,"burgers, eggs",0.040
+2,"chicken, chocolate",0.040
+2,"chicken, eggs",0.040
+2,"chocolate, mineral water",0.040
+2,"chocolate, shrimp",0.040
+2,"cottage cheese, mineral water",0.040
+2,"energy bar, milk",0.040
+2,"energy bar, mineral water",0.040
+2,"escalope, frozen smoothie",0.040
+2,"escalope, mineral water",0.040
+2,"escalope, salmon",0.040
+2,"fresh tuna, mineral water",0.040
+2,"fresh tuna, spaghetti",0.040
+2,"frozen smoothie, honey",0.040
+2,"frozen smoothie, salmon",0.040
+2,"frozen smoothie, spaghetti",0.040
+2,"frozen vegetables, mineral water",0.040
+2,"green tea, pancakes",0.040
+2,"green tea, spaghetti",0.040
+2,"ground beef, mineral water",0.040
+2,"honey, low fat yogurt",0.040
+2,"honey, mineral water",0.040
+2,"hot dogs, soup",0.040
+2,"low fat yogurt, shrimp",0.040
+2,"milk, mineral water",0.040
+2,"milk, spaghetti",0.040
+2,"mineral water, turkey",0.040
+2,"mineral water, whole wheat rice",0.040
+2,"mineral water, yams",0.040
+2,"pasta, shrimp",0.040
+3,"avocado, honey, shrimp",0.040
+3,"black tea, mineral water, salmon",0.040
+3,"black tea, mineral water, spaghetti",0.040
+3,"black tea, salmon, spaghetti",0.040
+3,"body spray, green tea, pancakes",0.040
+3,"chicken, eggs, mineral water",0.040
+3,"chocolate, eggs, mineral water",0.040
+3,"eggs, mineral water, turkey",0.040
+3,"energy bar, milk, mineral water",0.040
+3,"escalope, frozen smoothie, mineral water",0.040
+3,"escalope, frozen smoothie, spaghetti",0.040
+3,"escalope, mineral water, spaghetti",0.040
+3,"escalope, salmon, spaghetti",0.040
+3,"fresh tuna, mineral water, spaghetti",0.040
+3,"frozen smoothie, honey, mineral water",0.040
+3,"frozen smoothie, mineral water, salmon",0.040
+3,"frozen smoothie, mineral water, spaghetti",0.040
+3,"frozen vegetables, mineral water, spaghetti",0.040
+3,"honey, low fat yogurt, shrimp",0.040
+3,"mineral water, salmon, spaghetti",0.040
+4,"black tea, mineral water, salmon, spaghetti",0.040
+4,"escalope, frozen smoothie, mineral water, spaghetti",0.040
